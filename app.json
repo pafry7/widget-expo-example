@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "widget-expo-example",
+    "slug": "widget-expo-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "entitlements": {
+        "com.apple.security.application-groups": [
+          "group.expo.modules.widgetsync.example"
+        ]
+      },
+      "bundleIdentifier": "com.pafry.widgetexpoexample"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.pafry.widgetexpoexample"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "./app.plugin.js",
+        {
+          "widgetName": "widget",
+          "ios": {
+            "devTeamId": "",
+            "appGroupIdentifier": "group.expo.modules.widgetsync.example"
+          }
+        }
+      ]
+    ]
+  }
+}
