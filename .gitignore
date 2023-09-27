@@ -45,9 +45,13 @@ android
 # but not their build folders
 modules/widget/android/build
 
-# include plugin olders
+# include plugin folders
 !plugin/src/android
 !plugin/src/ios
 
 !plugin/build/android
 !plugin/build/ios
+
+# include widget files
+!widget/ios
+!widget/android
