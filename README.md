@@ -15,7 +15,7 @@ npx expo install expo-dev-client
 ```
 npx create-expo-module@latest --local
 ```
-4 Remove unnecessary files (web and views) from `modules/<module_name>/ios` and `modules/<module_name>/android`
+4. Remove unnecessary files (web and views) from `modules/<module_name>/ios` and `modules/<module_name>/android`
 5. Copy source code from `modules/widget/android/src/main/java/expo/modules/widget/WidgetModule.kt`, `modules/widget/ios/WidgetModule.swift` and `modules/widget/index.ts`
 6. Copy `plugin` folder
 7. Copy `app.plugin.js`
@@ -24,7 +24,7 @@ npx create-expo-module@latest --local
 ```
 npx expo prebuild
 ```
-14. Run
+10. Run
 ```
 npx expo run:ios
 ```
